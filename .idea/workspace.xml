@@ -1,63 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="85e84301-7baf-4752-bca0-b646ef2aa59a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/BookServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/controller/BookController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/dto/response/BookDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/dto/response/BookIdDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/exception/BookNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/exception/GeneralExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/model/Book.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/repository/BookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/java/com/kitaplik/bookservice/service/BookService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-service/book-service/src/test/java/com/kitaplik/bookservice/BookServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/src/main/java/com/kitaplik/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server/src/test/java/com/kitaplik/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/LibraryServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/client/BookServiceClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/client/RetreiveMessageErrorDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/controller/LibraryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/dto/AddBookRequest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/dto/BookDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/dto/BookIdDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/dto/LibraryDto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/exception/BookNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/exception/ExceptionMessage.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/exception/GeneralExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/exception/LibraryNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/model/library.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/repository/LibraryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/java/com/kitaplik/libraryservice/service/LibraryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-service/library-service/src/test/java/com/kitaplik/libraryservice/LibraryServiceApplicationTests.java" beforeDir="false" />
+    <list default="true" id="85e84301-7baf-4752-bca0-b646ef2aa59a" name="Changes" comment="upgraded project and added apigateway">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +15,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2SiATk62fNbQWccXMehvWj5ybhJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.LibraryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="BookServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kitaplik.bookservice.BookServiceApplication" />
@@ -123,11 +88,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689619040884</updated>
-      <workItem from="1689619042038" duration="311000" />
+      <workItem from="1689619042038" duration="2381000" />
     </task>
+    <task id="LOCAL-00001" summary="upgraded project and added apigateway">
+      <created>1689619483546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689619483546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upgraded project and added apigateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgraded project and added apigateway" />
   </component>
 </project>
