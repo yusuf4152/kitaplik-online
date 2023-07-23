@@ -15,15 +15,24 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/library")
+@RefreshScope
 public class LibraryController {
 
     Logger logger = LoggerFactory.getLogger(LibraryController.class);
     private final LibraryService libraryService;
     private final Environment environment;
 
+    @Value("${service.book.count}")
+    private String bookCount;
+
     public LibraryController(LibraryService libraryService, Environment environment) {
         this.libraryService = libraryService;
         this.environment = environment;
+    }
+
+    @GetMapping("/count")
+    public ResponseEntity<String> getCount() {
+        return ResponseEntity.ok(bookCount);
     }
 
     @GetMapping("/{id}")
