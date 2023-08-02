@@ -1,12 +1,13 @@
 version: 2.1
 jobs:
   build-test-project:
-    working_directory: kitaplik-online/eureka-server
+    working_directory: ~/kitaplik-online/eureka-server
     machine:
       image: ubuntu-2004:202010-01 
       docker_layer_caching: true
     steps:
-      - checkout
+      - checkout:
+           path: ~/kitaplik-online
       - run:
           name: maven Build
           command: mvn clean install  
